@@ -218,6 +218,10 @@ footer {
   background: rgba(255, 255, 255, 0.2);
   text-shadow: none; }
 
+img.gal {
+  border: 4px solid white;
+  height: 400px; }
+
 img::selection {
   background: transparent; }
 
