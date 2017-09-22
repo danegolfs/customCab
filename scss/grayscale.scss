@@ -199,7 +199,7 @@ a {
 
 .download-section {
   padding-top: 40px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   color: white;
   background: url('../img/wood.jpg') no-repeat center center scroll;
   background-color: black;
@@ -221,7 +221,7 @@ a {
   }
   .download-section {
     padding-top: 60px;
-    padding-bottom: 600px;
+    padding-bottom: 275px;
   }
   .contact-section {
     padding-top: 200px;
@@ -294,8 +294,15 @@ footer {
 }
 
 img.gal {
+  width: auto;
+  margin: 0 auto;
   border: 4px solid white;
-  height: 400px;
+  max-height: 500px;
+  @media(max-width: 600) {
+      height: 100%;
+      width: 100%;
+  }
+
 }
 
 img::selection {
